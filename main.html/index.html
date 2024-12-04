@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Css/all.min.css" />
+    <link rel="stylesheet" href="../Css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../main.css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="form">
+      <div class="container my-5">
+        <div class="row">
+          <div class="log shadow-lg">
+            <div class="card text-light">
+              <div class="card-body">
+                <h1 class="text-center">Smart Login System</h1>
+                <div class="text-center my-4">
+                  <input
+                    type="text"
+                    placeholder="Enter your name"
+                    id="nameInput"
+                  />
+                </div>
+
+                <div class="text-center my-4">
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    id="emailInput"
+                  />
+                </div>
+
+                <div class="text-center my-4">
+                  <input
+                    type="password"
+                    placeholder="Enter password"
+                    id="passwordInput"
+                  />
+                </div>
+              </div>
+              
+              <p id="errorsMassege" class="text-danger text-center"></p>
+
+              <button type="submit" class="my-4">Sign Up</button>
+              <p class="text-center text-light">
+                You have an account? <a href="login.html">Sigin</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <script src="../main.js/index.js"></script>
+  </body>
+</html>

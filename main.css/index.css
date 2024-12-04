@@ -1,0 +1,38 @@
+ body{
+    background-color: rgb(35,51,61);
+}
+
+
+
+.card{
+    background-color: rgb(35,51,61);
+}
+
+h1{
+    color: rgb(23,162,184);
+}
+
+button{
+    color: rgb(23,162,184);
+}
+
+button:hover{
+    background-color:  rgb(23,162,184)
+    
+}
+
+button:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* 
+#userErrors{
+    color: rgb(208,53,64);
+} */
